@@ -8,7 +8,7 @@
   <meta name="description" content="None">
   
   <link rel="shortcut icon" href="./img/favicon.ico">
-  <title>Home - My Docs</title>
+  <title>Home - mkdocs 简明手册</title>
   <link href='https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:400,700|Inconsolata:400,700' rel='stylesheet' type='text/css'>
 
   <link rel="stylesheet" href="./css/theme.css" type="text/css" />
@@ -35,7 +35,7 @@
     
     <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
       <div class="wy-side-nav-search">
-        <a href="." class="icon icon-home"> My Docs</a>
+        <a href="." class="icon icon-home"> mkdocs 简明手册</a>
         <div role="search">
   <form id ="rtd-search-form" class="wy-form" action="./search.html" method="get">
     <input type="text" name="q" placeholder="Search docs" />
@@ -52,22 +52,33 @@
     <a class="current" href=".">Home</a>
     <ul class="subnav">
             
-    <li class="toctree-l2"><a href="#welcome-to-mkdocs">Welcome to MkDocs</a></li>
+    <li class="toctree-l2"><a href="#1">1. 安装</a></li>
+    
+
+    <li class="toctree-l2"><a href="#2">2  命令</a></li>
     
         <ul>
         
-            <li><a class="toctree-l3" href="#commands">Commands</a></li>
-        
             <li><a class="toctree-l3" href="#project-layout">Project layout</a></li>
-        
-            <li><a class="toctree-l3" href="#project-layout2">Project layout2</a></li>
-        
-            <li><a class="toctree-l3" href="#project-layout3">Project layout3</a></li>
         
         </ul>
     
 
+    <li class="toctree-l2"><a href="#3-bulid">3. bulid</a></li>
+    
+
+    <li class="toctree-l2"><a href="#4-mkdocsyml">4. mkdocs.yml 配置</a></li>
+    
+
+    <li class="toctree-l2"><a href="#5">5. 部署发布</a></li>
+    
+
     </ul>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="about/">About</a>
 	    </li>
           
         </ul>
@@ -80,7 +91,7 @@
       
       <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
         <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
-        <a href=".">My Docs</a>
+        <a href=".">mkdocs 简明手册</a>
       </nav>
 
       
@@ -95,6 +106,8 @@
     <li>Home</li>
     <li class="wy-breadcrumbs-aside">
       
+        <a href="http://git.oschina.net/design_pattern/page_test/"> Edit on oschina</a>
+      
     </li>
   </ul>
   <hr/>
@@ -102,48 +115,68 @@
           <div role="main">
             <div class="section">
               
-                <h1 id="welcome-to-mkdocs">Welcome to MkDocs</h1>
-<p>For full documentation visit <a href="http://mkdocs.org">mkdocs.org</a>.</p>
-<h2 id="commands">Commands</h2>
+                <p><strong>mkdocs 使用简明手册</strong></p>
+<p>完整文档请访问 <a href="http://markdown-docs-zh.readthedocs.io/zh_CN/latest/">markdown-docs-zh</a> 或 <a href="http://mkdocs.org">mkdocs.org</a> .</p>
+<h3 id="1">1. 安装</h3>
+<pre><code class="sh">$ sudo pip install mkdocs
+</code></pre>
+
+<h3 id="2">2  命令</h3>
 <ul>
 <li><code>mkdocs new [dir-name]</code> - Create a new project.</li>
 <li><code>mkdocs serve</code> - Start the live-reloading docs server.</li>
 <li><code>mkdocs build</code> - Build the documentation site.</li>
 <li><code>mkdocs help</code> - Print this help message.</li>
 </ul>
-<h3 id="ttt">ttt</h3>
-<p>good idea!!</p>
-<h3 id="dddd">dddd</h3>
-<p>good idea!!</p>
-<p>good idea!!</p>
-<pre><code class="python">import os
-print(&quot;hello world!&quot;)
-print(&quot;挺好的!&quot;)
+<h6 id="project-layout">Project layout</h6>
+<pre><code>mkdocs.yml    # The configuration file.
+docs/
+    index.md  # The documentation homepage.
+    ...       # Other markdown pages, images and other files.
+</code></pre>
+<h3 id="3-bulid">3. bulid</h3>
+<pre><code>$echo &quot;site/&quot; &gt;&gt; .gitignore
+</code></pre>
 
+<h3 id="4-mkdocsyml">4. mkdocs.yml 配置</h3>
+<pre><code>site_name: MkLorum
+
+pages:
+- [index.md, Home]
+- [about.md, About]
+
+theme: readthedocs   
+dev_addr: 0.0.0.0:8000
 </code></pre>
 
-<h2 id="project-layout">Project layout</h2>
-<pre><code>mkdocs.yml    # The configuration file.
-docs/
-    index.md  # The documentation homepage.
-    ...       # Other markdown pages, images and other files.
+<h3 id="5">5. 部署发布</h3>
+<pre><code>$ mkdocs gh-deploy
 </code></pre>
-<h2 id="project-layout2">Project layout2</h2>
-<pre><code>mkdocs.yml    # The configuration file.
-docs/
-    index.md  # The documentation homepage.
-    ...       # Other markdown pages, images and other files.
-</code></pre>
-<h2 id="project-layout3">Project layout3</h2>
-<pre><code>mkdocs.yml    # The configuration file.
-docs/
-    index.md  # The documentation homepage.
-    ...       # Other markdown pages, images and other files.
-</code></pre>
+
+<p><strong>码云</strong></p>
+<ol>
+<li>
+<p>选择 ： <strong>Service</strong> -- <strong>Pages</strong>
+<img alt="oschina_pages" src="./images/oschina_pages_option.png" /></p>
+</li>
+<li>
+<p>选择, gh-pages 分支,  <strong>Start service</strong></p>
+</li>
+</ol>
+<p><img alt="oschina_start_service" src="./images/oschina_start_service.png" /></p>
+<p><strong>Github</strong></p>
+<p><img alt="github_pages" src="./images/github_pages.png" /></p>
               
             </div>
           </div>
           <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="about/" class="btn btn-neutral float-right" title="About">Next <span class="icon icon-circle-arrow-right"></span></a>
+      
+      
+    </div>
   
 
   <hr/>
@@ -168,6 +201,8 @@ docs/
       
       
       
+        <span style="margin-left: 15px"><a href="about/" style="color: #fcfcfc">Next &raquo;</a></span>
+      
     </span>
 </div>
     <script src="./js/theme.js"></script>
@@ -177,5 +212,5 @@ docs/
 
 <!--
 MkDocs version : 0.16.3
-Build Date UTC : 2017-05-02 08:31:18
+Build Date UTC : 2017-05-02 15:05:46
 -->

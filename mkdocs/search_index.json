@@ -2,28 +2,18 @@
     "docs": [
         {
             "location": "/", 
-            "text": "Welcome to MkDocs\n\n\nFor full documentation visit \nmkdocs.org\n.\n\n\nCommands\n\n\n\n\nmkdocs new [dir-name]\n - Create a new project.\n\n\nmkdocs serve\n - Start the live-reloading docs server.\n\n\nmkdocs build\n - Build the documentation site.\n\n\nmkdocs help\n - Print this help message.\n\n\n\n\nttt\n\n\ngood idea!!\n\n\ndddd\n\n\ngood idea!!\n\n\ngood idea!!\n\n\nimport os\nprint(\nhello world!\n)\nprint(\n\u633a\u597d\u7684!\n)\n\n\n\n\n\nProject layout\n\n\nmkdocs.yml    # The configuration file.\ndocs/\n    index.md  # The documentation homepage.\n    ...       # Other markdown pages, images and other files.\n\n\n\nProject layout2\n\n\nmkdocs.yml    # The configuration file.\ndocs/\n    index.md  # The documentation homepage.\n    ...       # Other markdown pages, images and other files.\n\n\n\nProject layout3\n\n\nmkdocs.yml    # The configuration file.\ndocs/\n    index.md  # The documentation homepage.\n    ...       # Other markdown pages, images and other files.", 
+            "text": "mkdocs \u4f7f\u7528\u7b80\u660e\u624b\u518c\n\n\n\u5b8c\u6574\u6587\u6863\u8bf7\u8bbf\u95ee \nmarkdown-docs-zh\n \u6216 \nmkdocs.org\n .\n\n\n1. \u5b89\u88c5\n\n\n$ sudo pip install mkdocs\n\n\n\n\n2  \u547d\u4ee4\n\n\n\n\nmkdocs new [dir-name]\n - Create a new project.\n\n\nmkdocs serve\n - Start the live-reloading docs server.\n\n\nmkdocs build\n - Build the documentation site.\n\n\nmkdocs help\n - Print this help message.\n\n\n\n\nProject layout\n\n\nmkdocs.yml    # The configuration file.\ndocs/\n    index.md  # The documentation homepage.\n    ...       # Other markdown pages, images and other files.\n\n\n\n3. bulid\n\n\n$echo \nsite/\n \n .gitignore\n\n\n\n\n4. mkdocs.yml \u914d\u7f6e\n\n\nsite_name: MkLorum\n\npages:\n- [index.md, Home]\n- [about.md, About]\n\ntheme: readthedocs   \ndev_addr: 0.0.0.0:8000\n\n\n\n\n5. \u90e8\u7f72\u53d1\u5e03\n\n\n$ mkdocs gh-deploy\n\n\n\n\n\u7801\u4e91\n\n\n\n\n\n\n\u9009\u62e9 \uff1a \nService\n -- \nPages\n\n\n\n\n\n\n\n\n\u9009\u62e9, gh-pages \u5206\u652f,  \nStart service\n\n\n\n\n\n\n\n\nGithub", 
             "title": "Home"
         }, 
         {
-            "location": "/#welcome-to-mkdocs", 
-            "text": "For full documentation visit  mkdocs.org .", 
-            "title": "Welcome to MkDocs"
+            "location": "/#1", 
+            "text": "$ sudo pip install mkdocs", 
+            "title": "1. \u5b89\u88c5"
         }, 
         {
-            "location": "/#commands", 
+            "location": "/#2", 
             "text": "mkdocs new [dir-name]  - Create a new project.  mkdocs serve  - Start the live-reloading docs server.  mkdocs build  - Build the documentation site.  mkdocs help  - Print this help message.", 
-            "title": "Commands"
-        }, 
-        {
-            "location": "/#ttt", 
-            "text": "good idea!!", 
-            "title": "ttt"
-        }, 
-        {
-            "location": "/#dddd", 
-            "text": "good idea!!  good idea!!  import os\nprint( hello world! )\nprint( \u633a\u597d\u7684! )", 
-            "title": "dddd"
+            "title": "2  \u547d\u4ee4"
         }, 
         {
             "location": "/#project-layout", 
@@ -31,14 +21,24 @@
             "title": "Project layout"
         }, 
         {
-            "location": "/#project-layout2", 
-            "text": "mkdocs.yml    # The configuration file.\ndocs/\n    index.md  # The documentation homepage.\n    ...       # Other markdown pages, images and other files.", 
-            "title": "Project layout2"
+            "location": "/#3-bulid", 
+            "text": "$echo  site/    .gitignore", 
+            "title": "3. bulid"
         }, 
         {
-            "location": "/#project-layout3", 
-            "text": "mkdocs.yml    # The configuration file.\ndocs/\n    index.md  # The documentation homepage.\n    ...       # Other markdown pages, images and other files.", 
-            "title": "Project layout3"
+            "location": "/#4-mkdocsyml", 
+            "text": "site_name: MkLorum\n\npages:\n- [index.md, Home]\n- [about.md, About]\n\ntheme: readthedocs   \ndev_addr: 0.0.0.0:8000", 
+            "title": "4. mkdocs.yml \u914d\u7f6e"
+        }, 
+        {
+            "location": "/#5", 
+            "text": "$ mkdocs gh-deploy  \u7801\u4e91    \u9009\u62e9 \uff1a  Service  --  Pages     \u9009\u62e9, gh-pages \u5206\u652f,   Start service     Github", 
+            "title": "5. \u90e8\u7f72\u53d1\u5e03"
+        }, 
+        {
+            "location": "/about/", 
+            "text": "301 Moved Permanently\n\n\n\n\n301 Moved Permanently\n\n\nnginx/1.6.2", 
+            "title": "About"
         }
     ]
 }
