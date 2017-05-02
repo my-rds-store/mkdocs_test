@@ -2,7 +2,7 @@
     "docs": [
         {
             "location": "/", 
-            "text": "mkdocs \u4f7f\u7528\u7b80\u660e\u624b\u518c\n\n\n\u5b8c\u6574\u6587\u6863\u8bf7\u8bbf\u95ee \nmarkdown-docs-zh\n \u6216 \nmkdocs.org\n .\n\n\n1. \u5b89\u88c5\n\n\n$ sudo pip install mkdocs\n\n\n\n\n2  \u547d\u4ee4\n\n\n\n\nmkdocs new [dir-name]\n - Create a new project.\n\n\nmkdocs serve\n - Start the live-reloading docs server.\n\n\nmkdocs build\n - Build the documentation site.\n\n\nmkdocs help\n - Print this help message.\n\n\n\n\nProject layout\n\n\nmkdocs.yml    # The configuration file.\ndocs/\n    index.md  # The documentation homepage.\n    ...       # Other markdown pages, images and other files.\n\n\n\n3. bulid\n\n\n$echo \nsite/\n \n .gitignore\n\n\n\n\n4. mkdocs.yml \u914d\u7f6e\n\n\nsite_name: MkLorum\n\npages:\n- [index.md, Home]\n- [about.md, About]\n\ntheme: readthedocs   \ndev_addr: 0.0.0.0:8000\n\n\n\n\n5. \u90e8\u7f72\u53d1\u5e03\n\n\n$ mkdocs gh-deploy\n\n\n\n\n\u7801\u4e91\n\n\n\n\n\n\n\u9009\u62e9 \uff1a \nService\n -- \nPages\n\n\n\n\n\n\n\n\n\u9009\u62e9, gh-pages \u5206\u652f,  \nStart service\n\n\n\n\n\n\n\n\nGithub", 
+            "text": "mkdocs \u4f7f\u7528\u7b80\u660e\u624b\u518c\n\n\n\u5b8c\u6574\u6587\u6863\u8bf7\u8bbf\u95ee \nmarkdown-docs-zh\n \u6216 \nmkdocs.org\n .\n\n\n1. \u5b89\u88c5\n\n\n$ sudo pip install mkdocs\n\n\n\n\n2. \u547d\u4ee4\n\n\n\n\nmkdocs new [dir-name]\n - Create a new project.\n\n\nmkdocs serve\n - Start the live-reloading docs server.\n\n\nmkdocs build\n - Build the documentation site.\n\n\nmkdocs help\n - Print this help message.\n\n\n\n\nProject layout\n\n\nmkdocs.yml    # The configuration file.\ndocs/\n    index.md  # The documentation homepage.\n    ...       # Other markdown pages, images and other files.\n\n\n\n3. bulid\n\n\n$echo \nsite/\n \n .gitignore\n\n\n\n\n4. mkdocs.yml \u914d\u7f6e\n\n\nsite_name: MkLorum\n\npages:\n- [index.md, Home]\n- [about.md, About]\n\ntheme: readthedocs   \ndev_addr: 0.0.0.0:8000\n\n\n\n\n5. \u90e8\u7f72\u53d1\u5e03\n\n\n$ mkdocs gh-deploy\n\n\n\n\n5.1 \u7801\u4e91\n\n\na ) . \u9009\u62e9 \uff1a \nService\n -- \nPages\n\n\n\n\nb ) . \u9009\u62e9, \ngh-pages\n \u5206\u652f,  \u5e76\u4e14 \nStart service\n\n\n\n\n5.2 Github\n\n\n\u5728\nSettings\n\u4e0b:", 
             "title": "Home"
         }, 
         {
@@ -12,13 +12,8 @@
         }, 
         {
             "location": "/#2", 
-            "text": "mkdocs new [dir-name]  - Create a new project.  mkdocs serve  - Start the live-reloading docs server.  mkdocs build  - Build the documentation site.  mkdocs help  - Print this help message.", 
-            "title": "2  \u547d\u4ee4"
-        }, 
-        {
-            "location": "/#project-layout", 
-            "text": "mkdocs.yml    # The configuration file.\ndocs/\n    index.md  # The documentation homepage.\n    ...       # Other markdown pages, images and other files.", 
-            "title": "Project layout"
+            "text": "mkdocs new [dir-name]  - Create a new project.  mkdocs serve  - Start the live-reloading docs server.  mkdocs build  - Build the documentation site.  mkdocs help  - Print this help message.   Project layout  mkdocs.yml    # The configuration file.\ndocs/\n    index.md  # The documentation homepage.\n    ...       # Other markdown pages, images and other files.", 
+            "title": "2. \u547d\u4ee4"
         }, 
         {
             "location": "/#3-bulid", 
@@ -32,7 +27,7 @@
         }, 
         {
             "location": "/#5", 
-            "text": "$ mkdocs gh-deploy  \u7801\u4e91    \u9009\u62e9 \uff1a  Service  --  Pages     \u9009\u62e9, gh-pages \u5206\u652f,   Start service     Github", 
+            "text": "$ mkdocs gh-deploy  5.1 \u7801\u4e91  a ) . \u9009\u62e9 \uff1a  Service  --  Pages   b ) . \u9009\u62e9,  gh-pages  \u5206\u652f,  \u5e76\u4e14  Start service   5.2 Github  \u5728 Settings \u4e0b:", 
             "title": "5. \u90e8\u7f72\u53d1\u5e03"
         }, 
         {
