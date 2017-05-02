@@ -10,6 +10,22 @@
     
 
     
+        
+    <url>
+     <loc>/test/test1/</loc>
+     <lastmod>2017-05-02</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>/test/test2/</loc>
+     <lastmod>2017-05-02</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    
+
+    
     <url>
      <loc>/about/</loc>
      <lastmod>2017-05-02</lastmod>
