@@ -37,7 +37,7 @@
         }, 
         {
             "location": "/about/", 
-            "text": "301 Moved Permanently\n\n\n\n\n301 Moved Permanently\n\n\nnginx/1.6.2", 
+            "text": "301 Moved Permanently\n\n\n\n\nthis is about\n\n\nnginx/1.6.2", 
             "title": "About"
         }
     ]
