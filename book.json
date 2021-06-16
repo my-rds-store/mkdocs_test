@@ -2,5 +2,6 @@
     "plugins": [
         "tex",
         "highlight"
-    ]
+    ],
+    "theme": "classic"
 }
