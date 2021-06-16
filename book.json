@@ -3,5 +3,6 @@
         "tex",
         "highlight"
     ],
-    "theme": "classic"
+    "theme": "classic",
+    "title": "test"
 }
