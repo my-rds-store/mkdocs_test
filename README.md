@@ -1,5 +1,5 @@
 # Test Write
 
-* [SUMMARY](./SUMMARY.md)
-* [chap1](./chap1.md)
-* [chap2](./chap2.md)
+* [SUMMARY](./SUMMARY.html)
+* [chap1](./chap1.html)
+* [chap2](./chap2.html)
